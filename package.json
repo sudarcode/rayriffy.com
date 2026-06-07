@@ -1,16 +1,16 @@
 {
-  "name": "sudar",
+  "name": "rayriffy.com",
   "type": "module",
-  "version": "1.6.2",
+  "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@11.1.3",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --port 5173",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prettier": "prettier --write **/*.{ts,tsx,css,astro} --ignore-path .gitignore",
-    "postinstall": "patch-package"
+    "format": "prettier --write **/*"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
