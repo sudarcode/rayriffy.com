@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config'
 import icon from 'astro-icon'
-
+import vercel from '@astrojs/vercel'
 import node from '@astrojs/node'
 import tailwindcss from "@tailwindcss/vite";
 
